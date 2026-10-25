@@ -1,0 +1,28 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+venv/
+.venv-linux/
+.env
+
+# Secrets and local configuration
+instance/
+*.key
+*.pem
+secrets.json
+
+# Databases and user-uploaded files
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+storage/
+encrypted_files/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
